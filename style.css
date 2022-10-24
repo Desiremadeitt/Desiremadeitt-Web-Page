@@ -1,0 +1,187 @@
+body {
+    font:15px/1.5 arial, helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+/*Global*/
+.container{
+    width: 80%;
+    margin: auto;
+overflow: hidden;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.button-1{
+    height:38px;
+background: #e8491d;
+border: 0;
+padding-left: 20px;
+padding-right: 20px;
+color:#ffffff
+}
+
+.dark{
+    padding:15px;
+    background: #35424a;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*header**/
+
+header{
+    background: #35424a;
+    color: #ffffff;
+    padding-top: 30px;min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+}
+
+header a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding h1{
+    margin: 0;
+}
+
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight, header .current a{
+    color:#e8491d;
+    font-weight: bold;
+}
+
+header a:hover{
+    color:#cccccc;
+    font-weight: bold;
+}
+
+/*showcase*/
+
+#showcase{
+    min-height: 350px;
+    background: url('../images/bg1.jpeg') no-repeat;
+    background-position:center;
+    background-size:cover;
+    text-align:centre;
+    color: #000000;
+}
+
+#showcase h1{
+    margin-top:50px;
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+
+#showcase p{
+    font-size: 20px;
+}
+
+/*newsletter*/
+
+#newsletter{
+    padding: 1px;
+    color:#ffffff;
+    background: #35424a;
+}
+
+#newsletter h1{
+    float: left;
+}
+
+#newsletter form{
+    float: right;
+    margin-top: 15px;
+    }
+
+    #newsletter input[type="email"]{
+        padding:4px;
+        height:25px;
+        width:250px;
+    }
+
+    /*Boxes*/
+
+    #Boxes{
+        margin-top: 30px;
+    }
+
+    #boxes.box{
+        float:left;
+        text-align:center;
+        width:30px;
+        padding:50px;
+    }
+
+    #boxes.box img{
+        width:80px;
+    }
+
+    /*sidebar*/
+
+    aside#sidebar{
+        float:right;
+        width:30%;
+        margin-top: 10px;
+    }
+
+    aside#sidebar .quote input, aside#sidebar.quote textarea{
+width:90px;
+padding:5px;
+    }
+
+    /*main-col*/
+   
+    article#main-col{
+float:left;
+width:65%;
+font-size: 50px;
+text-align: center;
+    }
+
+   article#main-col p{
+        text-align: center;
+        font-size: 25px;
+    }
+
+    /*services*/
+
+    ul#services li {
+        list-style: none;
+        padding: 20px;
+        border: #cccccc solid 1px;
+        margin-bottom: 5px;
+        background: #e6e6e6;
+        font-size: large;
+    }
+
+    footer{
+        padding: 20px;
+        margin-top: 2opx;
+        color:#ffffff;
+        background-color: #e8491d;
+        text-align: center;
+    }
+
+    header{
+        padding-top: 20px;
+    }
